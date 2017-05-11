@@ -3,12 +3,12 @@
 # documents separated by new lines. New lines should only appear
 # inbetween separate documents.
 
-path="/var/myfiles/financial-news-dataset/20061020_20131126_bloomberg_news"
-touch corpus.txt
+path="$1"  # "/var/myfiles/financial-news-dataset/20061020_20131126_bloomberg_news" #this is the default
+#corpus=""
 
 for folder in $(ls $path); do
     for file in $( ls $path/$folder ); do
-         sh preprocess $path/$folder/$file >> corpus.txt
-         echo >> corpus.txt # add newline character at the end of file.
+         corpus=$corpus$( sh preprocess $path/$folder/$file >> corpus.txt )$'\n'
     done
+    echo "$corpus" > corpus.txt
 done
