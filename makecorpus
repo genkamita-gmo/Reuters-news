@@ -3,12 +3,9 @@
 # documents separated by new lines. New lines should only appear
 # inbetween separate documents.
 
-path="$1"  # "/var/myfiles/financial-news-dataset/20061020_20131126_bloomberg_news" #this is the default
-#corpus=""
-
-for folder in $(ls $path); do
-    for file in $( ls $path/$folder ); do
-         corpus=$corpus$( sh preprocess $path/$folder/$file >> corpus.txt )$'\n'
-    done
-    echo "$corpus" > corpus.txt
+path=$1
+files="$(find $path -type f )"
+for file in $files
+do
+    sh preprocess $file > $file"__processed__"
 done
