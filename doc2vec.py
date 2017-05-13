@@ -5,7 +5,7 @@ import collections
 import smart_open
 import random
 import sys
-
+import multiprocessing
 
 # Set file names for train and test data
 test_data_dir = '.'
@@ -32,7 +32,8 @@ print(train_corpus[:2])
 
 print("---test corpus---")
 print(test_corpus[:2])
-model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=55)
+cores = multiprocessing.cpu_count()
+model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=55, workers=cores)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
