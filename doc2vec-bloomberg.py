@@ -1,19 +1,17 @@
 # coding: utf-8
-
 import gensim
 import os
 import collections
 import smart_open
 import random
+import sys
+
 
 # Set file names for train and test data
 test_data_dir = '.'
-
-
-# change bellow to use input arg
-
-my_train_file = test_data_dir + os.sep + 'splitaa'
-my_test_file = test_data_dir + os.sep + 'splitab'
+print(sys.argv[1])
+my_train_file = test_data_dir + os.sep + sys.argv[1]
+my_test_file = test_data_dir + os.sep + sys.argv[2]
 
 
 
