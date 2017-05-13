@@ -27,14 +27,16 @@ def read_corpus(fname, tokens_only=False):
 train_corpus = list(read_corpus(my_train_file))
 test_corpus = list(read_corpus(my_test_file, tokens_only=True))
 
-train_corpus[:2]
+print("---train corpus---")
+print(train_corpus[:2])
 
+print("---test corpus---")
 print(test_corpus[:2])
 model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=55)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
-model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
+print(model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires']))
 
 
 ranks = []
@@ -47,7 +49,7 @@ for doc_id in range(len(train_corpus)):
     
     second_ranks.append(sims[1])
 
-collections.Counter(ranks)  # Results vary due to random seeding and very small corpus
+print(collections.Counter(ranks))  # Results vary due to random seeding and very small corpus
 
 
 print('Document ({}): «{}»\n'.format(doc_id, ' '.join(train_corpus[doc_id].words)))
