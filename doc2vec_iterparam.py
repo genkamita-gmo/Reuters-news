@@ -12,7 +12,7 @@ test_data_dir = '.'
 print(sys.argv[1])
 my_train_file = test_data_dir + os.sep + sys.argv[1]
 my_test_file = test_data_dir + os.sep + sys.argv[2]
-my_iter = test_data_dir + os.sep + int(sys.argv[3])
+my_iter = int(sys.argv[3])
 
 
 def read_corpus(fname, tokens_only=False):
