@@ -44,6 +44,7 @@ model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=my_iter)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
+model.save("doc2vec-model")
 model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
 
