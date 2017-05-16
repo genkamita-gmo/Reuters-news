@@ -6,7 +6,7 @@ import collections
 import smart_open
 import random
 import sys
-
+import multiprocessing
 
 # Set file names for train and test data
 test_data_dir = '.'
@@ -33,17 +33,18 @@ print("check corpus")
 print(train_corpus[:2])
 print(test_corpus[:2])
 
-pre = Doc2Vec(min_count=0)
+pre = Doc2Vec(min_count=my_mincount)
 pre.scan_vocab(train_corpus)
 
 for num in range(0, 20):
     print('min_count: {}, size of vocab: '.format(num), pre.scale_vocab(min_count=num, dry_run=True)['memory']['vocab']/700)
 
-
-model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=my_iter)
+#cores = multiprocessing.cpu_count()
+model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=3)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
+model.save("doc2vec-model")
 model.infer_vector(['only', 'you', 'can', 'prevent', 'forrest', 'fires'])
 
 
