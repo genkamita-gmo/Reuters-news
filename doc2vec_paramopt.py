@@ -39,8 +39,8 @@ pre.scan_vocab(train_corpus)
 for num in range(0, 20):
     print('min_count: {}, size of vocab: '.format(num), pre.scale_vocab(min_count=num, dry_run=True)['memory']['vocab']/700)
 
-cores = multiprocessing.cpu_count()
-model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=cores)
+#cores = multiprocessing.cpu_count()
+model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=3)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
