@@ -1,101 +1,65 @@
-from sklearn.cluster import KMeans
-import numpy as np
-X = np.load("docvec60000")
-kmeans = KMeans(n_clusters=2, random_state=0).fit(X)
-print kmeans.labels_
-#kmeans.predict([[0, 0], [4, 4]])
+
+# coding: utf-8
+
+# In[1]:
+
 import numpy as np
 import matplotlib.pyplot as plt
-
-#from sklearn import metrics
-#from sklearn.datasets import load_digits
+from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-'''
-from sklearn.preprocessing import scale
+import pprint as pp
 
-np.random.seed(42)
+def corpusNumLines():
+    num_lines_in_corpus = get_ipython().getoutput(u'wc -l $corpus_train_file | sed "s/$corpus_train_file//g;"')
+    num_lines_in_corpus = int(num_lines_in_corpus.s)
+    return num_lines_in_corpus
 
-digits = load_digits()
-data = scale(digits.data)
+#  parameters
+docvec_file = "docvec60000"
+docvec = np.load(docvec_file)
+corpus_train_file = "split60000aa"
+num_cluster = 3
+num_lines_in_corpus = corpusNumLines()
+num_randpick = 50
+dimensionality_reduction = 1
 
-n_samples, n_features = data.shape
-n_digits = len(np.unique(digits.target))
-labels = digits.target
+if dimensionality_reduction is True:
+    reduced_data = PCA(n_components=2).fit_transform(docvec)
+    kmeans = KMeans(init='k-means++', n_clusters = num_cluster)
+    fit_reduced_data = kmeans.fit(reduced_data, n_init=20)
+else:
+    X = np.load(docvec_file)
+    kmeans = KMeans(n_clusters=num_cluster).fit(docve)
 
-sample_size = 300
+news_randpick_index = np.random.randint(0,num_lines_in_corpus-1,num_randpick)
+news_randpick_label = fit_reduced_data.labels_[news_randpick_index]
+# sort them according to label
+news_randpick_label, news_randpick_index = (list(t) for t in zip(*sorted(zip(news_randpick_label, news_randpick_index))))
 
-print("n_digits: %d, \t n_samples %d, \t n_features %d"
-      % (n_digits, n_samples, n_features))
+news_randpick_title = []
+for num in news_randpick_index:
+    title = get_ipython().getoutput(u'sed -n "$num"p $corpus_train_file')
+    news_randpick_title.append(title)
+
+for num in range(num_cluster):
+    print("cluster " + str(num) + ": ---------------------------------------")
+    count = sum(i == num for i in news_randpick_label)
+    pp.pprint(news_randpick_title[0:count])
+    news_randpick_title = news_randpick_title[count:]
 
 
-print(79 * '_')
-print('% 9s' % 'init'
-      '    time  inertia    homo   compl  v-meas     ARI AMI  silhouette')
+if dimensionality_reduction is True:
+    for num in range(num_cluster):
+        condition = fit_reduced_data.labels_ == num
+        filtered_reduced_data_x = reduced_data[condition,0]
+        filtered_reduced_data_y = reduced_data[condition,1]
+        plt.plot(filtered_reduced_data_x, filtered_reduced_data_y, '.', markersize=0.5)
+
+    plt.plot(reduced_data[news_randpick_index, 0], reduced_data[news_randpick_index, 1], 'k.')
+    plt.show()
 
 
-def bench_k_means(estimator, name, data):
-    t0 = time()
-    estimator.fit(data)
-    print('% 9s   %.2fs    %i   %.3f   %.3f   %.3f   %.3f   %.3f    %.3f'
-          % (name, (time() - t0), estimator.inertia_,
-             metrics.homogeneity_score(labels, estimator.labels_),
-             metrics.completeness_score(labels, estimator.labels_),
-             metrics.v_measure_score(labels, estimator.labels_),
-             metrics.adjusted_rand_score(labels, estimator.labels_),
-             metrics.adjusted_mutual_info_score(labels,  estimator.labels_),
-             metrics.silhouette_score(data, estimator.labels_,
-                                      metric='euclidean',
-                                      sample_size=sample_size)))
+# In[ ]:
 
-bench_k_means(KMeans(init='k-means++', n_clusters=n_digits, n_init=10),
-              name="k-means++", data=data)
 
-bench_k_means(KMeans(init='random', n_clusters=n_digits, n_init=10),
-              name="random", data=data)
 
-# in this case the seeding of the centers is deterministic, hence we run the
-# kmeans algorithm only once with n_init=1
-pca = PCA(n_components=n_digits).fit(data)
-bench_k_means(KMeans(init=pca.components_, n_clusters=n_digits, n_init=1),
-              name="PCA-based",
-              data=data)
-print(79 * '_')
-'''
-
-reduced_data = PCA(n_components=2).fit_transform(data)
-kmeans = KMeans(init='k-means++', n_clusters=n_digits, n_init=10)
-kmeans.fit(reduced_data)
-
-# Step size of the mesh. Decrease to increase the quality of the VQ.
-h = .02     # point in the mesh [x_min, x_max]x[y_min, y_max].
-
-# Plot the decision boundary. For that, we will assign a color to each
-x_min, x_max = reduced_data[:, 0].min() - 1, reduced_data[:, 0].max() + 1
-y_min, y_max = reduced_data[:, 1].min() - 1, reduced_data[:, 1].max() + 1
-xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
-
-# Obtain labels for each point in mesh. Use last trained model.
-Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
-
-# Put the result into a color plot
-Z = Z.reshape(xx.shape)
-plt.figure(1)
-plt.clf()
-plt.imshow(Z, interpolation='nearest',
-           extent=(xx.min(), xx.max(), yy.min(), yy.max()),
-           cmap=plt.cm.Paired,
-           aspect='auto', origin='lower')
-
-plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
-# Plot the centroids as a white X
-centroids = kmeans.cluster_centers_
-plt.scatter(centroids[:, 0], centroids[:, 1],
-            marker='x', s=169, linewidths=3,
-            color='w', zorder=10)
-plt.title('K-means clustering on the digits dataset (PCA-reduced data)\n'
-          'Centroids are marked with white cross')
-plt.xlim(x_min, x_max)
-plt.ylim(y_min, y_max)
-plt.xticks(())
-plt.yticks(())
-plt.show('foo.png')
