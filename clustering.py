@@ -4,14 +4,13 @@ X = np.load("docvec60000")
 kmeans = KMeans(n_clusters=2, random_state=0).fit(X)
 print kmeans.labels_
 #kmeans.predict([[0, 0], [4, 4]])
-'''
 import numpy as np
 import matplotlib.pyplot as plt
 
-from sklearn import metrics
-from sklearn.cluster import KMeans
-from sklearn.datasets import load_digits
+#from sklearn import metrics
+#from sklearn.datasets import load_digits
 from sklearn.decomposition import PCA
+'''
 from sklearn.preprocessing import scale
 
 np.random.seed(42)
