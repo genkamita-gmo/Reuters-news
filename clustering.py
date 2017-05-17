@@ -1,13 +1,16 @@
-print(__doc__)
-
-from time import time
+from sklearn.cluster import KMeans
+import numpy as np
+X = np.load("docvec60000")
+kmeans = KMeans(n_clusters=2, random_state=0).fit(X)
+print kmeans.labels_
+#kmeans.predict([[0, 0], [4, 4]])
 import numpy as np
 import matplotlib.pyplot as plt
 
-from sklearn import metrics
-from sklearn.cluster import KMeans
-from sklearn.datasets import load_digits
+#from sklearn import metrics
+#from sklearn.datasets import load_digits
 from sklearn.decomposition import PCA
+'''
 from sklearn.preprocessing import scale
 
 np.random.seed(42)
@@ -57,6 +60,8 @@ bench_k_means(KMeans(init=pca.components_, n_clusters=n_digits, n_init=1),
               name="PCA-based",
               data=data)
 print(79 * '_')
+'''
+
 reduced_data = PCA(n_components=2).fit_transform(data)
 kmeans = KMeans(init='k-means++', n_clusters=n_digits, n_init=10)
 kmeans.fit(reduced_data)
@@ -93,4 +98,4 @@ plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
 plt.xticks(())
 plt.yticks(())
-savefig('foo.png')
+plt.show('foo.png')
