@@ -16,6 +16,7 @@ my_iter = int(sys.argv[3])
 my_mincount = int(sys.argv[4])
 my_size = int(sys.argv[5])  # doc vector size
 my_window = int(sys.argv[6])
+my_workers = int(sys.argv[7])
 
 def read_corpus(fname, tokens_only=False):
     with smart_open.smart_open(fname, encoding="iso-8859-1") as f:
@@ -39,8 +40,7 @@ pre.scan_vocab(train_corpus)
 for num in range(0, 20):
     print('min_count: {}, size of vocab: '.format(num), pre.scale_vocab(min_count=num, dry_run=True)['memory']['vocab']/700)
 
-cores = multiprocessing.cpu_count()
-model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=cores)
+model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=my_workers)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
 model.train(train_corpus, total_examples=model.corpus_count)
