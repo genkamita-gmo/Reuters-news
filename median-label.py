@@ -4,11 +4,11 @@ def label_by_median(list_to_label,recursion):
     Converts a numerical list into a list of discrete labels by recursevily searching for the median and adding a constant to half of the labeled list.
     "recursion" specifies how many times the list is split for the median search and addition of the constant..
     '''
-    [list(x) for x in zip(*sorted(zip(list1, list2, list3), key=itemgetter(0)))]
-
     length = len(list_to_label)
     key_list = range(length)
     label_list = np.zeros(length)
+    length, key_list, label_list = [list(x) for x in zip(*sorted(zip(length, 
+                                    key_list, label_list), key=itemgetter(0)))]
         for index in range(recursion):
             median = np.median(list_to_label)
         if recursion is 0:
