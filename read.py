@@ -20,7 +20,8 @@ def read(Return=True):
                     if Return is True:
 			return data
                 for datum in data:
-                    print('"' + '{}'.format(datum['title']).replace('"','').replace('\n',' ') + '"')
+                    print(#'"' + '{}'.format(datum['ts'])[0:8] + '",' +
+                         '"' + '{}'.format(datum['title']).replace('"','').replace('\n',' ') + '"')
 
 
 if __name__ == '__main__':
