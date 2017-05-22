@@ -24,7 +24,6 @@ print "Selected pair:", y_pair_name
 y_continuouse = np.asarray(y_all[y_pair_name].tolist())
 y = discretize_label.discretise_label(y_continuouse)
 
-"""
 fig1 = plt.figure()
 ax1 = fig1.add_subplot(111)
 ax1.plot(y_continuouse)
@@ -32,7 +31,6 @@ ax2 = fig1.add_subplot(111, sharex=ax1, frameon=False)
 ax2.yaxis.tick_right()
 ax2.yaxis.set_label_position("right")
 ax2.plot(y,'r')
-"""
 
 dataset = (X, y) 
 
@@ -41,5 +39,5 @@ X, y = dataset
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.1, random_state=42)
 classifier.fit(X_train, y_train)
 score = classifier.score(X_test, y_test)
-print score # accuracy?
+print score # only accuracy is available.
 plt.show()
