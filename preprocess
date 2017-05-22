@@ -1,3 +1,0 @@
-file=$1
-
-sed '3,4d' $file  | sed 's/--\ //g;' | tr '\r' ' ' | tr '\n' ' '
