@@ -20,7 +20,7 @@ def read(Return=True):
                     if Return is True:
 			return data
                 for datum in data:
-                    print('"' + '{}'.format(datum['ts'])[0:8] + '",' +
+                    print(#'"' + '{}'.format(datum['ts'])[0:8] + '",' +
                          '"' + '{}'.format(datum['title']).replace('"','').replace('\n',' ') + '"')
 
 
