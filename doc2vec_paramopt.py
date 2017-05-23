@@ -7,6 +7,9 @@ import smart_open
 import random
 import sys
 import multiprocessing
+import os
+os.system("taskset -p 0xff %d" % os.getpid())
+
 
 # Set file names for train and test data
 test_data_dir = '.'
@@ -40,6 +43,7 @@ for num in range(0, 20):
     print('min_count: {}, size of vocab: '.format(num), pre.scale_vocab(min_count=num, dry_run=True)['memory']['vocab']/700)
 
 cores = multiprocessing.cpu_count()
+print("number of cores: "+str(cores))
 model = gensim.models.doc2vec.Doc2Vec(size=my_size, min_count=my_mincount, iter=my_iter, window = my_window, workers=cores)
 
 model.build_vocab(train_corpus)  # takes roughly 1-2 minutes
