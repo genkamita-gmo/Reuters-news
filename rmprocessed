@@ -1,7 +1,0 @@
-path=$1
-#processedfile="$(find $path -type f | grep "__processed__")"
-procfiles="$(find $path -type f | grep "__processed__")"
-for file in $procfiles
-do
-   rm -f $file
-done

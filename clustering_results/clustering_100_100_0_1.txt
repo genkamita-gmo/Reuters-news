@@ -1,0 +1,52 @@
+]0;IPython: gitrepo/news-dataset-scriptsperforming clustering of raw docvec
+cluster 21: ---------------------------------------
+[['"REFILE-US gold jumps 2 pct on fund buying, short covering"'],
+ ['"Black voters still unsure about Obama"'],
+ ['"KCBT Value Line Stock Index volume/open interest"']]
+cluster 30: ---------------------------------------
+[['"Frontier Airlines 3rd-quarter loss widens"'],
+ ['"DIARY - Germany - to March 7"'],
+ ['"Tyson unit recalls ground beef on E.Coli risk: USDA"']]
+cluster 31: ---------------------------------------
+[['"UPDATE 2-F5 Networks forecasts Q2 outlook below analysts\' view"'],
+ ['"ICON plc beats by $0.03"'],
+ ['"US CREDIT-KB Home debt likely to rally as worries fade"'],
+ ['"Indonesian military to help fight bird flu"']]
+cluster 35: ---------------------------------------
+[['"SteelCloud wins server appliance contract for new electronic discovery product from Cricket Technologies"'],
+ ['"TABLE-Terremark Worldwide "'],
+ ['"Stock Market Update - Tue Feb 13 06:36:14 UTC 2007"'],
+ ['"Advance Auto Parts quarterly earnings fall"'],
+ ['"UPDATE1-TABLE-Mediacom Q4 loss narrows; gives \'07 rev view"']]
+cluster 40: ---------------------------------------
+[['"Mexican alt-rock acts eye U.S. success"'],
+ ['"Venezuela says to nationalize top power company"'],
+ ['"S&P; futures vs fair value: +4.5. Nasdaq futures vs fair value: +9.0."']]
+cluster 41: ---------------------------------------
+[['"Code Name appropriately forgettable"'],
+ ['"Pop Milano in talks with Parmalat to settle suit"'],
+ ['"Furyk focused on tournament wins and majors, not ranking"']]
+cluster 47: ---------------------------------------
+[['"Gold steadies but seen gaining in long term"'],
+ ['"TREASURIES-Bonds extend gains on Fed nod to lower inflation"'],
+ ['"Winn-Dixie had $500 mln cash in mid-January"']]
+cluster 51: ---------------------------------------
+[['"TABLE-Unica "'],
+ ['"UK tourist in Cancun dies trying to kill girlfriend"'],
+ ['"FOREX-Dollar rises near four-year peak vs yen after G7"'],
+ ['"J.M. Barrie\'s Mary Rose a mere curiosity"']]
+cluster 54: ---------------------------------------
+[['"UPDATE 2-UnionBanCal 4th-qtr profit falls; bullish on 2007"'],
+ ['"TABLE-Mesa Air Group "'],
+ ['"CHRONOLOGY: Timeline of the North Korean nuclear crisis"'],
+ ['"Foreign brokers place net Japan stock buy orders"']]
+cluster 71: ---------------------------------------
+[['"Global biotech crop acres grow as debate persists"'],
+ ['"Sri Lanka expects $4.5 bln in aid, but no new pledges"'],
+ ['"APS Ariz. Palo Verde 3 reactor starts to exit outage"'],
+ ['"EU says disease control needs better information"']]
+cluster 81: ---------------------------------------
+[['"Cheney: U.S. must show \'stomach\' to win in Iraq"'],
+ ['"Bush promotes health care plan in U.S. heartland"'],
+ ['"Hot Rap Tracks for the 2/10/2007 issue"'],
+ ['"Hot Dance Music/Club Play for the 3/3/2007 issue"']]
