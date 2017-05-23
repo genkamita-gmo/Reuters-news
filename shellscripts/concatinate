@@ -1,0 +1,4 @@
+path=$1
+rm -f newcorpus.txt
+time for file in $(find $path -name *__processed__)
+do cat $file >> newcorpus.txt; done
