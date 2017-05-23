@@ -1,0 +1,468 @@
+]0;IPython: gitrepo/news-dataset-scriptsperforming clustering of raw docvec
+cluster 5: ---------------------------------------
+[['"Northern Rock Plc sells $2 bln floaters in 2 parts"'],
+ ['"FEATURE-Who watches the watchers in surveillance society?"'],
+ ['"Baidu.com falls after downgrade"'],
+ ['"UPDATE 1-Itron to buy Actaris Metering for about $1 bln"']]
+cluster 23: ---------------------------------------
+[['"TV shows find young, affluent viewers on \'net: study"'],
+ ['"Progress Energy beats by $0.04; guides in-line"'],
+ ['"TB strain threatens uncontrollable epidemic"']]
+cluster 30: ---------------------------------------
+[['"British Airways Q3 operating profit falls 27 pct"'],
+ ['"S&P; 500 to add Hudson City Bancorp"'],
+ ['"US STOCKS-Indexes sag; global sell-off cuts appetite for risk"']]
+cluster 61: ---------------------------------------
+[['"Medco exec sees opportunity in Caremark fracas"'],
+ ['"GigaMedia to buy majority holding in Chinese sports game firm"'],
+ ['"Johnson family hikes Fidelity board presence"'],
+ ['"TABLE-JER Investors "']]
+cluster 65: ---------------------------------------
+[['"RPT-ICBC, China Life on doorstep of HK\'s main index"'],
+ ['"Farm groups urge country labels for food"'],
+ ['"FOREX-Dollar rebounds vs yen as stock sell-off abates"']]
+cluster 70: ---------------------------------------
+[['"US STOCKS-Shares rise on lower oil prices, Intel"'],
+ ['"British Columbia island could hold huge wind farm"'],
+ ['"Rice says hopes for resumption of N.Korea talks soon"'],
+ ['"UN says surge in attacks on Darfur aid workers"']]
+cluster 72: ---------------------------------------
+[['"UPDATE 4-Tate & Lyle shock profit warning sours shares"'],
+ ['"Nasdaq amends proposed services in listing package"'],
+ ['"Consol plans coal cuts, layoffs at Kentucky mines"']]
+cluster 76: ---------------------------------------
+[['"Fire at Calif Chevron refinery limited: official"'],
+ ['"Sri Lanka govt nears majority as opposition MPs defect"'],
+ ['"Hedge fund TCI trims Euronext stake to 5.3 pct"']]
+cluster 79: ---------------------------------------
+[['"S.Africa Brait boosts Shoprite offer to $2.14 bln"'],
+ ['"HSBC\'s Green upbeat on insurance, Latin America"'],
+ ['"UPDATE 1-Chevron CEO calls for U.S. to triple ethanol use"'],
+ ['"FACTBOX-Biggest falls in the Dow Jones Industrial Average"']]
+cluster 85: ---------------------------------------
+[['"Japan confirms fresh H5 bird flu outbreak"'],
+ ['"Britain boosts NATO fighting force in Afghanistan"'],
+ ['"Valero Delaware hydrocracker struck by fire--report"'],
+ ['"Bond Watch: Solid Bid May Stall"']]
+cluster 86: ---------------------------------------
+[['"George Michael pleads not guilty"'],
+ ['"PRESS DIGEST - British business press =2"'],
+ ['"AES Calif. Redondo 8 natgas unit back"'],
+ ['"Mortgage rates fall in latest week"']]
+cluster 93: ---------------------------------------
+[['"Swatch sales up 12 pct, higher profit expected"'],
+ ['"Super Bowl ads draw more fire for insensitivity"'],
+ ['"North and South Korea reach deal on family reunions"']]
+cluster 109: ---------------------------------------
+[['"Chicks, Chilis set for Grammy performances"'],
+ ['"Clinton shows Web power "'],
+ ['"EXCLUSIVE-N.Korea eyes 2nd test if dispute not resolved-source"'],
+ ['"US House squares off in debate on Iraq war strategy"'],
+ ['"CME to launch hurricane futures and options"']]
+cluster 121: ---------------------------------------
+[['"UPDATE 1-Swiss franc briefly climbs on SNB rumors"'],
+ ['"CBOT estimated futures/options volume - Jan 5"'],
+ ['"Swaps seen key as biofuels expand"'],
+ ['"Stock Market Update - Mon Jan 22 14:20:43 UTC 2007"'],
+ ['"Bush says Obama has long way to go to be president"'],
+ ['"Activision raises Q4 revenue outlook"'],
+ ['"Chief Ban hopes Palestinian deal curbs violence"'],
+ ['"PRB Gathering, a Subsidiary of PRB Energy, enters into lease agreement for gas compression in the Powder River Basin"'],
+ ['"Somali leader to hold reconciliation conference"']]
+cluster 138: ---------------------------------------
+[['"Silverman golden for Comedy Central"'],
+ ['"U.S. banks say Basel II puts them at disadvantage"'],
+ ['"A&P; in talks to buy Pathmark for about $653 million"']]
+cluster 148: ---------------------------------------
+[['"Spain police clash with Basque separatist protesters"'],
+ ['"On the radar: PPG "'],
+ ['"UPDATE 1-Interpublic drops claims against former agency head"'],
+ ['"UPDATE 2-Market Chatter -- Corporate finance press digest"']]
+cluster 153: ---------------------------------------
+[['"U.S. investigates options grant to Apple CEO: WSJ"'],
+ ['"Fannie Mae to sell $4.0 bln bills on Wednesday"'],
+ ['"AMR share offering prices at $38.70"'],
+ ['"Stock Market Update - Tue Jan 23 06:18:30 UTC 2007"'],
+ ['"TABLE-Post Properties "'],
+ ['"Stock Market Update - Wed Feb 07 06:21:42 UTC 2007"'],
+ ['"Asian Markets"'],
+ ['"Egyptian woman tests positive for bird flu- WHO"'],
+ ['"Ex-aide says Rice misled Congress on Iran"'],
+ ['"Stock Market Update - Fri Feb 16 06:16:30 UTC 2007"'],
+ ['"Stock Market Update - Mon Feb 26 06:19:30 UTC 2007"'],
+ ['"Sunesis Pharma files investigational new drug application for novel aurora kinase inhibitor, SNS-314"']]
+cluster 164: ---------------------------------------
+[['"Fatah holds big Gaza rally amid Hamas tensions"'],
+ ['"Two Saddam aides hanged at dawn"'],
+ ['"Reuters Technology Week"']]
+cluster 185: ---------------------------------------
+[['"Bond Watch: Reasons to be Fearful, Part I: Bears"'],
+ ['"MIPS Techs receives extension from Nasdaq to file SEC reports"'],
+ ['"RPT-FOREX-Dollar rebounds vs yen, euro despite soft data"']]
+cluster 189: ---------------------------------------
+[['"US Airways withdraws offer for Delta Air Lines"'],
+ ['"Midwest Air comments on AirTran\'s nominees to Midwest Board"'],
+ ['"U.S. agency 2007 note sales calendar"'],
+ ['"Nissan Q3 operating profit dips, lowers forecasts"'],
+ ['"Constellation Md. Calvert Cliffs 2 reactor shut"']]
+cluster 193: ---------------------------------------
+[['"UPDATE 2-Merck Serono finishes enrolment for MS pill trial"'],
+ ['"Two killed, 19 hurt in rebel attacks in India\'s Assam"'],
+ ['"Maytag recalls 2.3 mln dishwashers for fire hazard"'],
+ ['"TABLE-Aceto "'],
+ ['"UPDATE 1-TABLE-Trina Solar Q4 earnings rise, sets \'07 view"'],
+ ['"Chronic distress linked to higher dementia risk"'],
+ ['"Italy wants life in jail for Dirty War Argentines"'],
+ ['"Manila forms special courts for political killings"']]
+cluster 219: ---------------------------------------
+[['"FACTBOX-Security developments in Iraq, Jan 17"'],
+ ['"Anthony scores 33 points as Nuggets top Blazers"'],
+ ['"TABLE-Aventine Renewable "']]
+cluster 246: ---------------------------------------
+[['"Sundance closes with nods to war and family"'],
+ ['"Borat creator named one of Britain\'s most powerful"'],
+ ['"Talbots says CEO Zetcher plans to retire"']]
+cluster 250: ---------------------------------------
+[['"MERGERS-SPREADS/ (UPDATE 1)"'],
+ ['"McDonald\'s begins the switch to new frying oil"'],
+ ['"Statins may force retreat in heart disease-study"'],
+ ['"Spain seeks to extradite Argentina dirty war govn"'],
+ ['"Auto group expects higher fuels standards"']]
+cluster 258: ---------------------------------------
+[['"Allegiant Air seeks new ways to charge passengers"'],
+ ['"Brazil\'s real ends at 9-month high, stocks edge up"'],
+ ['"Bus falls off bridge in India, 24 feared drowned"']]
+cluster 261: ---------------------------------------
+[['"Lawmakers want bold action on UK gas price control"'],
+ ['"AnnTaylor sees opportunities for growth-CEO"'],
+ ['"Israel\'s IDB, Discount to post gain from GVT offering"']]
+cluster 265: ---------------------------------------
+[['"Oscar welcomes fresh faces to coveted movie awards"'],
+ ['"Oscar welcomes fresh faces to coveted movie awards"'],
+ ['"Iraq VP survives bomb, cabinet backs oil law"']]
+cluster 275: ---------------------------------------
+[['"Plug Power "'],
+ ['"No. 2 China appliance chain says 2006 net doubles"'],
+ ['"US STOCKS-Futures point lower as risk aversion gains"']]
+cluster 283: ---------------------------------------
+[['"Citigroup loses bid to end $10 bln Parmalat suit"'],
+ ['"Brazil to follow int\'l prices for Bolivian natgas"'],
+ ['"Stars zip, rip and vie to wow for Oscar fashion"']]
+cluster 300: ---------------------------------------
+[['"Iran will avoid harsh response to soft sanctions"'],
+ ['"FACTBOX-Security developments in Iraq, Feb 12"'],
+ ['"Anti-aircraft missiles found near Baghdad: military"']]
+cluster 310: ---------------------------------------
+[['"Wal-Mart reorganizes merchandising, marketing"'],
+ ['"Irvine Sensors receives notices regarding non compliance wth Nasdaq and Boston Stock Exchange listing requirements"'],
+ ['"Toy maker Tomy cuts f\'cast, hit by Nintendo success"']]
+cluster 313: ---------------------------------------
+[['"Precision Castparts to expand its forging capabilities with acquisition of McWilliams Forge"'],
+ ['"WITNESS: Media mayhem makes film festival a scrum"'],
+ ['"CytRx subsidiary, RXi Pharmaceutical, enters into scientific advisory board agreements with \'key\' RNAi scientists"']]
+cluster 316: ---------------------------------------
+[['"Valero says no delay to Tex City refinery restarts"'],
+ ['"AEterna Zentaris "'],
+ ['"Anheuser-Busch declines comment on InBev report"'],
+ ['"EU weather forecasters help fight climate change"']]
+cluster 324: ---------------------------------------
+[['"Lawmakers seek to bar U.S. attack on Iran"'],
+ ['"Mexico\'s TV Azteca posts sevenfold net profit leap"'],
+ ['"Tribune to evaluate offers on Saturday: source"']]
+cluster 329: ---------------------------------------
+[['"DIARY-Reuters Tankan survey to December 2007"'],
+ ['"Green buildings need more incentives in U.S."'],
+ ['"India\'s booming economy brings toxic hi-tech waste"']]
+cluster 342: ---------------------------------------
+[['"Deals of the day -- mergers and acquisitions"'],
+ ['"Italian online bank files for IPO in Milan"'],
+ ['"AIG, NY-NJ agency get pact for Newark terminal deal"']]
+cluster 344: ---------------------------------------
+[['"U.S. asks China to exert pressure on Sudan"'],
+ ['"Stock Market Update - Fri Mar 02 09:15:02 UTC 2007"'],
+ ['"Militants kill U.S. spy in Pakistan"']]
+cluster 347: ---------------------------------------
+[['"Whistle-blower accuses ITT of overbilling US Army"'],
+ ['"General Dynamics CEO sees 2007 profit below Street"'],
+ ['"General Dynamics CEO sees 2007 profit below Street"'],
+ ['"Nickelodeon builds virtual community for kids"'],
+ ['"Stock Market Update - Fri Feb 02 08:00:01 UTC 2007"'],
+ ['"Web site counts violent deaths in Rio"'],
+ ['"Fertilizer prices seen rising with U.S. corn acres"'],
+ ['"Unions prepare to fight Airbus job cuts"']]
+cluster 354: ---------------------------------------
+[['"RR Donnelley sets $1.25 bln notes in 2-part sale"'],
+ ['"Pfizer\'s AIDS drug to get faster review"'],
+ ['"British Airways says Feb traffic falls 4.2 percent"']]
+cluster 357: ---------------------------------------
+[['"FACTBOX-Key facts about Argentina\'s Isabel Peron"'],
+ ['"Bush won\'t reauthorize U.S. eavesdropping program"'],
+ ['"Chavez sends Brazil sulfur for devil Bush visit"'],
+ ['"EDO Q4 profit falls"']]
+cluster 382: ---------------------------------------
+[['"Iceland\'s Landsbanki posts $205 mln Q4 net profit"'],
+ ['"Iceland\'s Landsbanki posts $205 mln Q4 net profit"'],
+ ['"Douglas, Wood shine in sweet-natured family drama"']]
+cluster 412: ---------------------------------------
+[['"U.S. Treasury balances at Fed fell on Jan. 4"'],
+ ['"Ford Motor misses by $0.15, reaffirms Y07 guidance"'],
+ ['"Ratner drops Murder charge"']]
+cluster 419: ---------------------------------------
+[['"Horse thinks he\'s a hound"'],
+ ['"UPDATE 2-Delhaize Q4 sales hit by dollar, shares weaken"'],
+ ['"Tokyo to seek US military help if quake hits-paper"'],
+ ['"Iraq hopes for Baghdad meeting with neighbors"'],
+ ['"US steel leaders push for action on China imports"'],
+ ['"Hanover Investors says never owned Britvic CFDs"'],
+ ['"TABLE-DexCom "'],
+ ['"US light vehicle sales, market share for February"'],
+ ['"Mylan Labs announces pricing of sr convertible notes and common stock "']]
+cluster 439: ---------------------------------------
+[['"New low for Biotech HOLDRs -BBH- but holding near solid support area"'],
+ ['"Zimmer Hldgs sets fresh session high of 84.95, eyeing its Jan and Sep 2005 highs at 85.00/85.10"'],
+ ['"Grammys great for CBS in weeklong ratings"'],
+ ['"Three Salvadoran congressmen killed in Guatemala"'],
+ ['"FOREX-Yen hits record low vs euro in yield-hungry market"']]
+cluster 442: ---------------------------------------
+[['"Schwab names Bettinger president and COO"'],
+ ['"UPDATE 1-LSB Bancshares to buy FNB Financial in $125 mln deal"'],
+ ['"Orascom confirms interest in Brasil Telecom stake"']]
+cluster 445: ---------------------------------------
+[['"Hot Rap Tracks for the 2/10/2007 issue"'],
+ ['"The Billboard 200 for the 2/10/2007 issue"'],
+ ['"Top Internet Albums for the 2/17/2007 issue"']]
+cluster 457: ---------------------------------------
+[['"Sakic and Shanahan named All-Star captains"'],
+ ['"Vineyard Natl appoints new chairman"'],
+ ['"Thailand reopens old airport"'],
+ ['"Biovail issues statement on reports of conclusion of SEC Gradient investigation "'],
+ ['"Egypt blogger jailed for insulting Islam"'],
+ ['"Russia rediscovers story of icebound adventurers"'],
+ ['"Stock Market Update - Wed Feb 28 09:21:30 UTC 2007"']]
+cluster 458: ---------------------------------------
+[['"UPDATE 1-U.S. derivatives watchdog says won\'t regulate Liffe"'],
+ ['"Reuters Quick Cut: Melon smashing"'],
+ ['"Reuters Quick Cut: Melon smashing"']]
+cluster 463: ---------------------------------------
+[['"Study links post-traumatic stress to heart disease"'],
+ ['"DAVOS-Nasdaq CEO optimistic on success of LSE bid"'],
+ ['"Darfur rebels to respect ceasefire"']]
+cluster 466: ---------------------------------------
+[['"UPDATE 1-RESEARCH ALERT-Merrill Lynch upgrades Legg Mason"'],
+ ['"Israel hits Gaza tunnels"'],
+ ['"REFILE-Western Oil Sands mum on deals as profit slips"'],
+ ['"Forward Calendar - U.S. corporate bond new issues"']]
+cluster 470: ---------------------------------------
+[['"UPDATE 1-Huron buys Wellspring Partners for $65 mln"'],
+ ['"UPDATE 1-Spansion lowers Q4 revenue view, citing lower demand"'],
+ ['"TABLE-General Maritime "'],
+ ['"Chile\'s president turns medic after child faints"']]
+cluster 517: ---------------------------------------
+[['"FOREX-Dollar gains as US trade gap shrinks"'],
+ ['"China preparing national plan for climate change"'],
+ ['"Colombia\'s foreign minister resigns over scandal"'],
+ ['"Spain\'s Vueling shares drop; raises sales target"'],
+ ['"Tokyo bourse to decide Nikko delisting on Fri: paper"']]
+cluster 542: ---------------------------------------
+[['"PG&E; breaks ground at site of former Mirant plant"'],
+ ['"UPDATE 1-Former Duracell employee stole trade secrets"'],
+ ['"FTSE hits new 6-yr high on miners, Sainsbury talk"']]
+cluster 553: ---------------------------------------
+[['"UK backs Bush Iraq plan, aims to reduce own troops"'],
+ ['"Infosys Q3 profit rises, but market unimpressed"'],
+ ['"Stock Market Update - Thu Feb 22 16:20:01 UTC 2007"']]
+cluster 565: ---------------------------------------
+[['"FACTBOX-Security developments in Iraq, Jan 13"'],
+ ['"India Mahindra to build new plant for Navistar JV"'],
+ ['"UPDATE 2-India\'s Pantaloon Retail in JV with US firm Staples"'],
+ ['"Vodafone sells $3.5 billion debt in 4 parts"']]
+cluster 566: ---------------------------------------
+[['"Idol judges, producer deny show is meaner"'],
+ ['"Chronology of Somalia\'s collapse, conflict"'],
+ ['"Australia to buy 24 F-18 Super Hornets from Boeing"']]
+cluster 569: ---------------------------------------
+[['"Straumann shares soar as 2006 profit beats poll"'],
+ ['"Delpy\'s Paris an enchanting destination"'],
+ ['"McDermott 4th-qtr earnings up sharply"'],
+ ['"Uganda opposition supporters grabbed in court siege"']]
+cluster 571: ---------------------------------------
+[['"Somalis suffer along tense border with Kenya"'],
+ ['"White House stands firm in stem cell debate"'],
+ ['"Uganda\'s LRA committed to talks but not in Sudan"'],
+ ['"South Korean duo arrested for 1.6 bln spam e-mails"']]
+cluster 579: ---------------------------------------
+[['"UPDATE 1-Qimonda posts 1st-qtr profit on higher prices"'],
+ ['"CORRECTED - Cenveo and Cadmus waive Hart-Scott-Rodino"'],
+ ['"Warner Music says EMI offer likely to be in cash"']]
+cluster 589: ---------------------------------------
+[['"New Issue - Open Solutions sells $325 mln 8-year notes"'],
+ ['"Royal & Sun completes sale of its U.S. operation"'],
+ ['"Wine pioneer Ernest Gallo dies at age 97"']]
+cluster 604: ---------------------------------------
+[['"BOJ: Japan growth somewhat weaker than forecast"'],
+ ['"DAVOS-Brazil\'s Lula appeals for trade deal concessions"'],
+ ['"DSG may close some French stores after poor sales"']]
+cluster 623: ---------------------------------------
+[['"Intelli-Check CFO resigns"'],
+ ['"U.N. urges help for Lebanon, EU pledges more aid"'],
+ ['"Somali attacks kill 5, Islamist opposes peace force"'],
+ ['"Somali attacks kill 5, Islamist opposes peace force"']]
+cluster 624: ---------------------------------------
+[['"New Shoppers boss seen enhancing growth strategy"'],
+ ['"Andy Roddick reaches fourth round"'],
+ ['"Bierko adheres to Rules at Fox"']]
+cluster 631: ---------------------------------------
+[['"Barr Pharma receives final approval for Generic Zoloft tablets, 25 mg, 50 mg and 100 mg"'],
+ ['"TABLE-Scopus Video Networks "'],
+ ['"UPDATE 2-NRG Energy posts 4th-qtr loss after hedge charges"']]
+cluster 633: ---------------------------------------
+[['"UPDATE 1-RESEARCH ALERT-Morgan Stanley downgrades Nasdaq"'],
+ ['"US CREDIT-Countrywide debt still has more room to rally"'],
+ ['"Empowered Democrats examine Bush administration"'],
+ ['"Chad says will not accept U.N. troops in east"']]
+cluster 653: ---------------------------------------
+[['"Competitive Technologies announces significant changes being made to leadership"'],
+ ['"Little Miss Sunshine charms way to Oscars"'],
+ ['"Dell revitalization may take it into stores"']]
+cluster 671: ---------------------------------------
+[['"Weill-Lenya romance leads \'07 Broadway bows"'],
+ ['"UN group, with US push, to change N. Korea funding"'],
+ ['"Norway to send 150 more soldiers to Afghanistan"']]
+cluster 678: ---------------------------------------
+[['"Lockheed F-22 fighter ready for combat -- general"'],
+ ['"Exxon Mobil CEO: climate policy would be prudent"'],
+ ['"Atlanta Journal-Constitution latest paper to revamp"'],
+ ['"Al Qaeda suspect drugged with flu shot -jailer"'],
+ ['"Nikkei extends losses as exporters fall"']]
+cluster 696: ---------------------------------------
+[['"UPDATE 1-Alitalia CEO Cimoli leaves Air France KLM board"'],
+ ['"Altera net up 43 pct, sales outlook misses Wall St"'],
+ ['"EchoStar posts higher profit, subscriber increase"']]
+cluster 709: ---------------------------------------
+[['"Stock Market Update - Wed Feb 21 12:00:01 UTC 2007"'],
+ ['"Motown obtains Dreamgirls disclaimer from studio"'],
+ ['"UPDATE 1-Halliburton sets KBR exchange offer"']]
+cluster 713: ---------------------------------------
+[['"Luxury brands save PPR from weak year end in retail"'],
+ ['"Cree and World Peace Industrial Co. sign distribution agreement to drive adoption of power LEDs across Asia"'],
+ ['"Nikkei hits near 7-yr high, Japan GDP tops f\'casts"']]
+cluster 727: ---------------------------------------
+[['"FACTBOX: Players battling injuries before Australian Open"'],
+ ['"Russia wants Palestinian aid freeze lifted - Ifax"'],
+ ['"Stock Market Update - Wed Feb 21 07:58:28 UTC 2007"'],
+ ['"JGB futures trim losses after BOJ raises rates"'],
+ ['"FACTBOX: Key facts about Darfur"']]
+cluster 733: ---------------------------------------
+[['"Prosecutors drop criminal case against KPMG"'],
+ ['"Rift Valley fever kills 74 in Kenya, hundreds infected"'],
+ ['"Cisco profit rises as Internet traffic grows"'],
+ ['"Global Coverage: Voting"']]
+cluster 746: ---------------------------------------
+[['"Cars,Pirates seen driving Disney earnings"'],
+ ['"On The Wires"'],
+ ['"Missing tourists rescued"']]
+cluster 748: ---------------------------------------
+[['"Yen weakness from carry trade gone too far: ADB"'],
+ ['"Triangle Capital public offering prices at $15/shr"'],
+ ['"Extreme Networks gets delisting notice from Nasdaq"']]
+cluster 757: ---------------------------------------
+[['"Sri Lanka jets bomb Tamil Tigers as fighting flares"'],
+ ['"Take-Two announces All-Pro Football 2K8"'],
+ ['"US STOCKS-Futures dip, spending, factory data on tap"']]
+cluster 765: ---------------------------------------
+[['"NEXT UP-U.S. troop increase in Iraq could roil FX markets"'],
+ ['"Spectrum Brands realigns units, cuts jobs"'],
+ ['"Kuwait\'s MTC to invest $10.5 bln in Africa in \'07"']]
+cluster 768: ---------------------------------------
+[['"Security alert shuts Boston\'s Charles River"'],
+ ['"Bush to unveil budget dominated by military, Iraq"'],
+ ['"UPDATE 2-Mylan, Barr win U.S. approval for Zoloft generic"']]
+cluster 788: ---------------------------------------
+[['"UPDATE-RESEARCH ALERT-Prudential ups AXP.N price target"'],
+ ['"FACTBOX-Key facts on the Anglican Communion"'],
+ ['"Jennifer Hudson wins Oscar for \'Dreamgirls\'"']]
+cluster 831: ---------------------------------------
+[['"Chef Ramsay still on top in new guide"'],
+ ['"Ritchie Bros says holds largest auction in co history"'],
+ ['"TABLE-ResCare "']]
+cluster 833: ---------------------------------------
+[['"UPDATE 1-Indonesia eyes bigger share in Natuna D-Alpha block"'],
+ ['"SAP launches mid-market software for some markets"'],
+ ['"U.S. general in Afghanistan seen tough on Taliban"']]
+cluster 843: ---------------------------------------
+[['"S.Africa\'s PPC says Q1 cement demand up 8.3 pct"'],
+ ['"Toronto stock index ends lower on slide in metals"'],
+ ['"US STOCKS-Indexes flat as oil rise offsets TXU deal"']]
+cluster 862: ---------------------------------------
+[['"Lebanon in urgent need of foreign aid: IMF"'],
+ ['"On The Wires"'],
+ ['"Bill holds Taiwan govt liable for 1947 massacre"']]
+cluster 876: ---------------------------------------
+[['"Philip Morris USA raises some prices"'],
+ ['"YouTube hit single unlocks band\'s Writer\'s Block"'],
+ ['"Kenyan hip-hop beats"']]
+cluster 897: ---------------------------------------
+[['"Toronto stocks plunge on weak energy, metals"'],
+ ['"WITNESS-Tranquil now, the battleground that was Iwo Jima"'],
+ ['"Natl Instruments reports Q4 EPS $0.01 above consensus; guides Q1 in-line"'],
+ ['"DVD firm Criterion issuing budget line"']]
+cluster 911: ---------------------------------------
+[['"South Africa helps families find apartheid dead"'],
+ ['"Shell still cool on M&A;, pessimistic on refining"'],
+ ['"BBVA may use Spanish model to grow in U.S. -FT"'],
+ ['"Magma Design\'s QuickCap NX selected by IBM "']]
+cluster 921: ---------------------------------------
+[['"FACTBOX-Tiger Woods"'],
+ ['"Manor Care profit rises 56 pct on sicker patients"'],
+ ['"2008 Democratic hopefuls call for Iraq war\'s end"']]
+cluster 923: ---------------------------------------
+[['"Birthday boy Tiger to become father next year"'],
+ ['"FOREX-Dollar rises across the board after US trade data"'],
+ ['"RIM co-CEO drops chairman title"']]
+cluster 927: ---------------------------------------
+[['"New Issue - Terrestar Networks sells $500 mln notes"'],
+ ['"Little movement seen in GE shares till deals done"'],
+ ['"Canada dollar down on commodity concern, bonds up"']]
+cluster 943: ---------------------------------------
+[['"Top-20 selling vehicles in U.S. through December"'],
+ ['"Activist Ackman taking aim at Ceridian - Barron\'s"'],
+ ['"GLOBAL MARKETS-Stocks at record highs, yen stalls at 120 per dlr"'],
+ ['"Foamex says emerges from chapter 11 bankruptcy protection"'],
+ ['"Bird flu experts urge halt to wild bird trade"']]
+cluster 948: ---------------------------------------
+[['"Dollar still unvanquished as king of reserves"'],
+ ['"Teargas ends Kashmir protest over police killings"'],
+ ['"UPDATE 2-Mexico\'s America Movil 4th-qtr net falls 28 pct"']]
+cluster 950: ---------------------------------------
+[['"WPS Resources, Peoples Energy move closer to merger"'],
+ ['"FACTBOX-China-Africa trade links"'],
+ ['"U.S. adjusts Iraq tactics after copters downed"'],
+ ['"Enzo Biochem Life Sciences Unit awarded two patents that enhance competitive position of existing products for fast-growing DNA labeling"'],
+ ['"GLOBAL MARKETS-Shares slip again but yen surge pauses"']]
+cluster 954: ---------------------------------------
+[['"UPDATE 1-Credit Suisse cuts Q4, 2006 earnings estimates on Gap"'],
+ ['"Guinea strike talks continue as death toll rises"'],
+ ['"UPDATE 2-Explosions, fire rock chemical plant in Kansas City"']]
+cluster 958: ---------------------------------------
+[['"UPDATE 1-Delta, Northwest in talks on link-up -report"'],
+ ['"Briere a hat-trick hero as the Sabres crush Boston"'],
+ ['"UPDATE 3-AngloGold Q4 EPS falls 67 pct, shares fall"']]
+cluster 976: ---------------------------------------
+[['"No date set for execution of top Saddam aides"'],
+ ['"Fernandez shuts the door in shootout win"'],
+ ['"UN chief vows action on war-torn Congo and Darfur"']]
+cluster 990: ---------------------------------------
+[['"TABLE-Fair Isaac "'],
+ ['"Kathmandu gets first snowfall in 63 years"'],
+ ['"TABLE-SonoSite "'],
+ ['"Mia Farrow urges UN action on Central African Rep."']]
+cluster 993: ---------------------------------------
+[['"Yzerman inspires Detroit to victory after number retired"'],
+ ['"Iraq shows film of Saddam aides\' hangings"'],
+ ['"Pollution said destroying pre-Aztec Mexican ruins"']]
+cluster 999: ---------------------------------------
+[['"UPDATE 1-Harrah\'s options active on talk of another bid"'],
+ ['"Hezbollah crowd marks Ashura in Beirut suburb"'],
+ ['"Come to Serbia: home to few people and Kazakh music"'],
+ ['"On The Wires"'],
+ ['"Patience bears fruit for Pioneer\'s Carey"']]

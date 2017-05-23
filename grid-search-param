@@ -1,0 +1,1 @@
+{ for it in $( cat iter); do for win in $( cat window ); do for min in $(cat mincount); do for sz in $(cat size); do for work in $(cat workers); do time python doc2vec_scanparam.py split-data/6000aa split-data/6000ab $it $min $sz $win $work; done; done; done; done; done;} 2>>grid_search6000.txt 1>>grid_search6000.txt
