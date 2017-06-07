@@ -2,10 +2,8 @@
 import numpy
 from collections import Counter
 
-def discretise_label(list_to_label,Bin=5):
-    minimum = min(list_to_label)
-    maximum = max(list_to_label)
-    bins = numpy.linspace(minimum,maximum,Bin)
-    digitized = numpy.digitize(list_to_label, bins)
-    print "label value counts: label[0,1,2,3] -> counts ", Counter(digitized).values()    
+
+def discretise_label(list_to_label,bin_list):
+    digitized = numpy.digitize(list_to_label, bin_list)
+    print "bin: ", str(bin_list),"-> counts of elements after binning:" ounter(digitized).values()
     return digitized - 1
